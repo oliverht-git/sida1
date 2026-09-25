@@ -1,27 +1,4 @@
-<!DOCTYPE html>
-<html lang="se">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>OSI-modellen</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-<div class="dropdown">
-    <button class="dropdown-btn">Navigera</button>
-     <div class="dropdown-content">
-        <a href="index.php">Index och OSI-modellen</a>
-        <a href="formulär.html">Formulär</a>
-        <a href="tabell.html">Tabell</a>
-        <a href="operative.html">Operative</a>
-        <a href="test.html">Test Sida</a>
-        <a href="begrepp.html">Begrepp</a>
-        <a href="nätverksteknik.html">Nätverksteknik</a>
-        <a href="nätverkskomponenter.html">Nätverkskomponenter</a>
-    </div>
-
-</div>
- <div class="textbox-container" id="header-textbox" >
+<div class="textbox-container osi-content">
     <div class="textbox-header" style="text-align: center; font-size: 28px;">OSI-modellen</div>
     <div class="textbox-content">
         <p>OSI-modellen är en referensmodell som används för att förstå och designa nätverkskommunikation. Den delar upp nätverkskommunikationen i sju lager, varje lager har en specifik funktion och ansvar.</p>
@@ -36,7 +13,5 @@
             <li><strong>Applikationslagret (Application Layer):</strong> Det högsta lagret som tillhandahåller tjänster direkt till användarapplikationer, såsom e-post, filöverföring och webbläsare.</li>
         </ol>
         <p>Genom att förstå OSI-modellen kan nätverksadministratörer och utvecklare bättre designa och felsöka nätverk, samt förstå hur olika protokoll och teknologier samverkar för att möjliggöra kommunikation över internet.</p>
-        
     </div>
-</body>
-</html>
+</div>
